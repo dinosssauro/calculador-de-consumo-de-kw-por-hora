@@ -40,6 +40,3 @@ O valor estimado da conta é:
    - Consumo estimado (kWh)  
    - Valor aproximado da conta (R$)  
 
-> Dica: Para que a janela não feche automaticamente no Windows, abra o programa pelo terminal ou adicione no final do código:
-```python
-input("Pressione Enter para sair...")
