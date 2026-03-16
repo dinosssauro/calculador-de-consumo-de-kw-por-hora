@@ -1,0 +1,1 @@
+# calculador-de-consumo-de-kw-por-hora
