@@ -24,10 +24,33 @@ O valor estimado da conta é:
 \text{Valor (R\$)} = \text{Consumo mensal (kWh)} \times 0,75
 \]
 
-> Obs.: O valor R$ 0,75 por kWh é apenas um exemplo. Você pode ajustar de acordo com a tarifa local.
+> Obs.: O valor R$ 0,75 por kWh é apenas um exemplo. Pode ser ajustado conforme a tarifa local.
 
-## Instruções para Executar o Programa
-1. Abra o terminal ou PowerShell (Windows) ou Terminal (Mac/Linux).  
-2. Navegue até a pasta do projeto.  
+## Instruções Detalhadas para Executar o Programa
+
+Siga estes passos:
+
+1. **Certifique-se de que o Python 3 está instalado**
+   - Para verificar, abra o terminal ou PowerShell e digite:
+     ```bash
+     python --version
+     ```
+   - Deve aparecer algo como `Python 3.11.x`.
+
+2. **Abra o terminal ou PowerShell**
+   - **Windows:** clique na pasta do projeto, segure **Shift** + clique direito → "Abrir PowerShell aqui"  
+   - **Mac/Linux:** abra o Terminal e navegue até a pasta do projeto com o comando `cd`
+
+3. **Navegue até a pasta do projeto**
+   - Exemplo Windows:
+     ```powershell
+     cd "C:\Users\SeuUsuario\Documents\calculadora_energia"
+     ```
+   - Exemplo Mac/Linux:
+     ```bash
+     cd "/Users/SeuUsuario/Documents/calculadora_energia"
+     ```
+
+4. **Execute o programa**
    ```bash
-   cd "C:\caminho\para\calculadora_energia"
+   python medidor_de_kmh2.py
